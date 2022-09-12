@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/drawable/bg_icon.xml" value="0.1355" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1295" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/drawable/ic_medicalinfo_black.xml" value="0.1295" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/drawable/ic_person_black.xml" value="0.1295" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/drawable/ic_phone_green.xml" value="0.133" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/drawable/searchview_bg.xml" value="0.133" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/layout/activity_admin_add_appointment.xml" value="0.25" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/layout/activity_admin_main.xml" value="0.18185654008438817" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/layout/activity_admin_update_pasien.xml" value="0.25" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/layout/activity_appointment.xml" value="0.25" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/layout/activity_appointment_detail.xml" value="0.25" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/layout/activity_edit_appointment.xml" value="0.25" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/layout/activity_history_appointment.xml" value="0.25" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/layout/activity_login.xml" value="0.18185654008438817" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/layout/activity_pasien_detail.xml" value="0.25" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/layout/admin_fragment_home.xml" value="0.1841880341880342" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/layout/app_bar_admin_main.xml" value="0.18185654008438817" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/layout/bottom_sheet.xml" value="0.1841880341880342" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/layout/content_admin_main.xml" value="0.18185654008438817" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/layout/dropdown_gender_item.xml" value="0.1841880341880342" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/layout/fragment_appointment.xml" value="0.2" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/layout/fragment_doctor.xml" value="0.18185654008438817" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/layout/fragment_info.xml" value="0.25" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/layout/fragment_pasien.xml" value="0.22" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/layout/item_row_appointment.xml" value="0.25" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/layout/item_row_pasien.xml" value="0.22" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/layout/nav_header_admin_main.xml" value="0.22" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/menu/admin_main.xml" value="0.18185654008438817" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.19722222222222222" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/menu/main_menu.xml" value="0.1841880341880342" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.133" />
+        <entry key="..\:/Users/ibaga/AndroidStudioProjects/Project/KlinikApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.133" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

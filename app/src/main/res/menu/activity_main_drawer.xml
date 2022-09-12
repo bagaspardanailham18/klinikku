@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_pasien"
+            android:icon="@drawable/ic_person_black"
+            android:title="@string/menu_pasien" />
+        <item
+            android:id="@+id/nav_appointment"
+            android:icon="@drawable/ic_appointment"
+            android:title="@string/menu_appointment" />
+    </group>
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:onClick="logout"
+            android:title="@string/logout" />
+    </group>
+</menu>

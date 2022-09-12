@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.ui.pasien.PasienDetailActivity">
+
+    <TextView
+        android:id="@+id/tv_pasien_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Nama Pasien" />
+
+    <TextView
+        android:id="@+id/tv_pasien_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/poppinsreguler"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pasien_name"
+        tools:text="email@gmail.com" />
+
+    <TextView
+        android:id="@+id/text_age"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Umur :"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_pasien_email"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pasien_email" />
+
+    <TextView
+        android:id="@+id/tv_age"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:fontFamily="@font/poppinsreguler"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/text_age"
+        app:layout_constraintStart_toEndOf="@+id/text_age"
+        app:layout_constraintTop_toTopOf="@+id/text_age"
+        tools:text="age" />
+
+    <TextView
+        android:id="@+id/text_gender"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Gender :"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/text_age"
+        app:layout_constraintTop_toBottomOf="@+id/text_age" />
+
+    <TextView
+        android:id="@+id/tv_gender"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsreguler"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/text_gender"
+        app:layout_constraintStart_toStartOf="@+id/tv_age"
+        app:layout_constraintTop_toTopOf="@+id/text_gender"
+        tools:text="gender" />
+
+    <TextView
+        android:id="@+id/text_phone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="No.hp :"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/text_gender"
+        app:layout_constraintTop_toBottomOf="@+id/text_gender" />
+
+    <TextView
+        android:id="@+id/tv_pasien_phone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsreguler"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/text_phone"
+        app:layout_constraintStart_toStartOf="@+id/tv_gender"
+        app:layout_constraintTop_toTopOf="@+id/text_phone"
+        tools:text="no hp" />
+
+    <TextView
+        android:id="@+id/text_address"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Alamat :"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/text_phone"
+        app:layout_constraintTop_toBottomOf="@+id/text_phone" />
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/poppinsreguler"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_pasien_phone"
+        app:layout_constraintTop_toTopOf="@+id/text_address"
+        tools:text="address" />
+
+    <TextView
+        android:id="@+id/text_blood"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Gol darah :"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/text_address"
+        app:layout_constraintTop_toBottomOf="@+id/tv_address" />
+
+    <TextView
+        android:id="@+id/tv_blood"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/poppinsreguler"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_pasien_phone"
+        app:layout_constraintTop_toTopOf="@+id/text_blood"
+        tools:text="A" />
+
+    <TextView
+        android:id="@+id/text_riwayat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Riwayat \nPenyakit :"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/text_blood"
+        app:layout_constraintTop_toBottomOf="@+id/text_blood" />
+
+    <TextView
+        android:id="@+id/tv_riwayat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/poppinsreguler"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_pasien_phone"
+        app:layout_constraintTop_toTopOf="@+id/text_riwayat"
+        tools:text="riwayat" />
+
+    <TextView
+        android:id="@+id/text_obat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Obat :"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/text_riwayat"
+        app:layout_constraintTop_toBottomOf="@+id/text_riwayat" />
+
+    <TextView
+        android:id="@+id/tv_obat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/poppinsreguler"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_pasien_phone"
+        app:layout_constraintTop_toTopOf="@+id/text_obat"
+        tools:text="obat" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_update_pasien"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="Perbharui Data"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_obat" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_call"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="Hubungi Pasien"
+        android:textColor="@color/green_500"
+        app:backgroundTint="@android:color/white"
+        app:icon="@drawable/ic_phone_green"
+        app:iconTint="@color/green_700"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_update_pasien"
+        app:strokeColor="@color/green_500"
+        app:strokeWidth="1dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

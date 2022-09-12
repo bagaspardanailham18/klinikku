@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.ui.appointment.AppointmentDetailActivity">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/title_bio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinssemibold"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="Biodata Pasien" />
+
+            <TextView
+                android:id="@+id/text_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Nama :"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/title_bio" />
+
+            <TextView
+                android:id="@+id/tv_pasien_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:fontFamily="@font/poppinsreguler"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/text_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/text_name"
+                app:layout_constraintTop_toTopOf="@+id/text_name"
+                tools:text="Nama Pasien" />
+
+            <TextView
+                android:id="@+id/text_email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Email :"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_name" />
+
+            <TextView
+                android:id="@+id/tv_pasien_email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsreguler"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="@+id/text_email"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/tv_pasien_name"
+                app:layout_constraintTop_toTopOf="@+id/text_email"
+                tools:text="email@gmail.com" />
+
+            <TextView
+                android:id="@+id/text_age"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Age :"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/text_email"
+                app:layout_constraintTop_toBottomOf="@+id/tv_pasien_email" />
+
+            <TextView
+                android:id="@+id/tv_age"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsreguler"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/text_age"
+                app:layout_constraintStart_toStartOf="@+id/tv_pasien_email"
+                app:layout_constraintTop_toTopOf="@+id/text_age"
+                tools:text="age" />
+
+            <TextView
+                android:id="@+id/text_gender"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Gender :"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/text_age"
+                app:layout_constraintTop_toBottomOf="@+id/text_age" />
+
+            <TextView
+                android:id="@+id/tv_gender"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsreguler"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/text_gender"
+                app:layout_constraintStart_toStartOf="@+id/tv_age"
+                app:layout_constraintTop_toTopOf="@+id/text_gender"
+                tools:text="gender" />
+
+            <TextView
+                android:id="@+id/text_phone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="No.hp :"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/text_gender"
+                app:layout_constraintTop_toBottomOf="@+id/text_gender" />
+
+            <TextView
+                android:id="@+id/tv_pasien_phone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsreguler"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/text_phone"
+                app:layout_constraintStart_toStartOf="@+id/tv_gender"
+                app:layout_constraintTop_toTopOf="@+id/text_phone"
+                tools:text="no hp" />
+
+            <TextView
+                android:id="@+id/text_address"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Alamat :"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/text_phone"
+                app:layout_constraintTop_toBottomOf="@+id/text_phone" />
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsreguler"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/text_address"
+                app:layout_constraintStart_toStartOf="@+id/tv_pasien_phone"
+                app:layout_constraintTop_toTopOf="@+id/text_address"
+                tools:text="address" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/materialCardView2"
+        app:layout_constraintStart_toStartOf="@+id/materialCardView2"
+        app:layout_constraintTop_toBottomOf="@+id/materialCardView2">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/title_appointment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinssemibold"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="Detail Appointment" />
+
+            <TextView
+                android:id="@+id/text_no_antrian"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="No antrian :"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/title_appointment"
+                app:layout_constraintTop_toBottomOf="@+id/title_appointment" />
+
+            <TextView
+                android:id="@+id/tv_no_antrian"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:fontFamily="@font/poppinssemibold"
+                android:textSize="16sp"
+                android:textColor="#FF0000"
+                app:layout_constraintBottom_toBottomOf="@+id/text_no_antrian"
+                app:layout_constraintStart_toEndOf="@+id/text_no_antrian"
+                app:layout_constraintTop_toTopOf="@+id/text_no_antrian"
+                tools:text="2" />
+
+            <TextView
+                android:id="@+id/text_poli"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Poli :"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/text_no_antrian"
+                app:layout_constraintTop_toBottomOf="@+id/text_no_antrian" />
+
+            <TextView
+                android:id="@+id/tv_poli"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsreguler"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/text_poli"
+                app:layout_constraintStart_toStartOf="@+id/tv_no_antrian"
+                app:layout_constraintTop_toTopOf="@+id/text_poli"
+                tools:text="poli" />
+
+            <TextView
+                android:id="@+id/text_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Tanggal :"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/text_poli"
+                app:layout_constraintTop_toBottomOf="@+id/text_poli" />
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsreguler"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/text_date"
+                app:layout_constraintStart_toStartOf="@+id/tv_poli"
+                app:layout_constraintTop_toTopOf="@+id/text_date"
+                tools:text="date" />
+
+            <TextView
+                android:id="@+id/text_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Waktu :"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/text_date"
+                app:layout_constraintTop_toBottomOf="@+id/text_date" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsreguler"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/text_time"
+                app:layout_constraintStart_toStartOf="@+id/tv_date"
+                app:layout_constraintTop_toTopOf="@+id/text_time"
+                tools:text="time" />
+
+            <TextView
+                android:id="@+id/text_description"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Keluhan :"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintStart_toStartOf="@+id/text_time"
+                app:layout_constraintTop_toBottomOf="@+id/text_time" />
+
+            <TextView
+                android:id="@+id/tv_description"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsreguler"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/text_description"
+                app:layout_constraintStart_toStartOf="@+id/tv_date"
+                app:layout_constraintTop_toTopOf="@+id/text_description"
+                tools:text="description" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

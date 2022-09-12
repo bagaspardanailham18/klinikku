@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bagas.klinikapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KlinikApp">
+        <activity
+            android:name=".admin.ui.pasien.AdminUpdatePasienActivity"
+            android:exported="false"
+            android:label="@string/label_update_pasien"
+            android:parentActivityName=".admin.ui.pasien.PasienDetailActivity" />
+        <activity
+            android:name=".admin.ui.appointment.AdminAddAppointmentActivity"
+            android:exported="false"
+            android:label="@string/label_add_appointment"
+            android:parentActivityName=".admin.AdminMainActivity" />
+        <activity
+            android:name=".admin.ui.pasien.PasienDetailActivity"
+            android:exported="false"
+            android:label="@string/label_pasien_detail"
+            android:parentActivityName=".admin.AdminMainActivity" />
+        <activity
+            android:name=".admin.ui.appointment.AppointmentDetailActivity"
+            android:exported="false"
+            android:label="@string/label_appointment_detail"
+            android:parentActivityName=".admin.AdminMainActivity" />
+        <activity
+            android:name=".admin.AdminMainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_admin_main"
+            android:theme="@style/Theme.KlinikApp.NoActionBar" />
+        <activity
+            android:name=".user.EditAppointmentActivity"
+            android:exported="false"
+            android:label="@string/label_edit_appointment"
+            android:parentActivityName=".user.HistoryAppointmentActivity" />
+        <activity
+            android:name=".auth.LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.KlinikApp.NoActionBar" />
+        <activity
+            android:name=".user.HistoryAppointmentActivity"
+            android:exported="false"
+            android:label="@string/label_history_appointment"
+            android:parentActivityName=".user.MainActivity" />
+        <activity
+            android:name=".user.AppointmentActivity"
+            android:exported="false"
+            android:label="@string/label_make_appointment"
+            android:parentActivityName=".user.MainActivity" />
+        <activity
+            android:name=".auth.RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.KlinikApp.NoActionBar" />
+        <activity
+            android:name=".user.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/Theme.KlinikApp.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

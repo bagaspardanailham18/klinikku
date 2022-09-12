@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/admin_mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.bagas.klinikapp.admin.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/admin_fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_pasien"
+        android:name="com.bagas.klinikapp.admin.ui.pasien.PasienFragment"
+        android:label="@string/menu_pasien"
+        tools:layout="@layout/fragment_pasien" >
+        <action
+            android:id="@+id/action_nav_pasien_to_pasienDetailActivity"
+            app:destination="@id/pasienDetailActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_appointment"
+        android:name="com.bagas.klinikapp.admin.ui.appointment.AppointmentFragment"
+        android:label="@string/menu_appointment"
+        tools:layout="@layout/fragment_appointment" >
+        <action
+            android:id="@+id/action_nav_appointment_to_appointmentDetailActivity"
+            app:destination="@id/appointmentDetailActivity" />
+        <action
+            android:id="@+id/action_nav_appointment_to_adminAddAppointmentActivity"
+            app:destination="@id/adminAddAppointmentActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/pasienDetailActivity"
+        android:name="com.bagas.klinikapp.admin.ui.pasien.PasienDetailActivity"
+        android:label="activity_pasien_detail"
+        tools:layout="@layout/activity_pasien_detail" >
+        <argument
+            android:name="uid"
+            app:argType="string"
+            android:defaultValue="default_uid" />
+        <argument
+            android:name="username"
+            app:argType="string"
+            android:defaultValue="username" />
+        <argument
+            android:name="name"
+            app:argType="string"
+            android:defaultValue="name" />
+        <argument
+            android:name="email"
+            app:argType="string"
+            android:defaultValue="defaul_email" />
+        <argument
+            android:name="phone"
+            android:defaultValue="default_phone" />
+        <argument
+            android:name="age"
+            app:argType="string"
+            android:defaultValue="age" />
+        <argument
+            android:name="gender"
+            app:argType="string"
+            android:defaultValue="gender" />
+        <argument
+            android:name="address"
+            app:argType="string"
+            android:defaultValue="address" />
+        <argument
+            android:name="bloodtype"
+            app:argType="string"
+            android:defaultValue="bloodtype" />
+        <argument
+            android:name="obat"
+            app:argType="string"
+            android:defaultValue="obat" />
+        <argument
+            android:name="riwayat"
+            app:argType="string"
+            android:defaultValue="riwayat" />
+    </activity>
+    <activity
+        android:id="@+id/appointmentDetailActivity"
+        android:name="com.bagas.klinikapp.admin.ui.appointment.AppointmentDetailActivity"
+        android:label="activity_appointment_detail"
+        tools:layout="@layout/activity_appointment_detail" >
+        <argument
+            android:name="uid"
+            app:argType="string"
+            android:defaultValue="default_uid" />
+        <argument
+            android:name="name"
+            app:argType="string"
+            android:defaultValue="name" />
+        <argument
+            android:name="email"
+            app:argType="string"
+            android:defaultValue="email" />
+        <argument
+            android:name="date"
+            app:argType="string"
+            android:defaultValue="date" />
+        <argument
+            android:name="poli"
+            app:argType="string"
+            android:defaultValue="poli" />
+        <argument
+            android:name="doctor"
+            app:argType="string"
+            android:defaultValue="doctor" />
+        <argument
+            android:name="time"
+            app:argType="string"
+            android:defaultValue="time" />
+        <argument
+            android:name="description"
+            app:argType="string"
+            android:defaultValue="description" />
+        <argument
+            android:name="noantrian"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </activity>
+    <activity
+        android:id="@+id/adminAddAppointmentActivity"
+        android:name="com.bagas.klinikapp.admin.ui.appointment.AdminAddAppointmentActivity"
+        android:label="activity_admin_add_appointment"
+        tools:layout="@layout/activity_admin_add_appointment" />
+</navigation>

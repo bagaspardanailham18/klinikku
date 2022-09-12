@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Klinikku</string>
+    <string name="title_home">Home</string>
+    <string name="title_info">Info</string>
+    <string name="title_doctor">Doctor</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_admin_main">AdminMainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="gender">
+        <item>Pria</item>
+        <item>Wanita</item>
+    </string-array>
+
+    <string-array name="poli">
+        <item>Umum</item>
+        <item>Gigi</item>
+    </string-array>
+
+    <string-array name="time">
+        <item>Pagi (06.00–08.00)</item>
+        <item>Sore (16.00–18.00)</item>
+    </string-array>
+
+    <string-array name="blood_type">
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_pasien">Data Pasien</string>
+    <string name="menu_appointment">Data Janji Temu</string>
+    <string name="admin">Admin</string>
+    <string name="admin_email">admin@gmail.com</string>
+
+    <string name="tv_age">%1$s Tahun</string>
+    <string name="tv_poli">Poli %1$s</string>
+
+    <string name="label_pasien_detail">Detail Pasien</string>
+    <string name="label_appointment_detail">Detail Janji Temu</string>
+    <string name="label_make_appointment">Buat Janji Temu</string>
+    <string name="label_history_appointment">Riwayat Janji Temu</string>
+    <string name="label_edit_appointment">Edit Janji Temu</string>
+
+    <string name="label_add_appointment">Tambah Janji Temu</string>
+    <string name="label_update_pasien">Ubah Data Pasien</string>
+</resources>
